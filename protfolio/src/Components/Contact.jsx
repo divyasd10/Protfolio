@@ -50,7 +50,7 @@ const Contact = () => {
               </IconButton>
             </motion.div>
             <motion.div whileHover={{ scale: 1.2 }}>
-              <IconButton component={Link} href="https://github.com/yourprofile" target="_blank" color="inherit">
+              <IconButton component={Link} href="https://github.com/divyasd10" target="_blank" color="inherit">
                 <GitHub />
               </IconButton>
             </motion.div>

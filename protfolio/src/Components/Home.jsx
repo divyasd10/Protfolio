@@ -89,7 +89,7 @@ const Home = () => {
               <Button
                 variant="contained"
                 component="a"
-                href="/resume.pdf"
+                href="/Divya.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 sx={{

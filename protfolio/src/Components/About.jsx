@@ -3,7 +3,7 @@ import { Box, Typography, Grid, Button, Card, CardContent } from "@mui/material"
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import divya from "../assets/div.jpg";
-import resume from "../Components/Divya Resume.pdf";
+import resume from "../Components/Resume.pdf";
 
 const About = () => {
   return (
