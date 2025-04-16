@@ -34,7 +34,7 @@ const Contact = () => {
                       <TextField label="Email" type="email" variant="outlined" fullWidth required />
                     </Grid>
                   </Grid>
-                  <TextField label="Subject" variant="outlined" fullWidth />
+                  {/* <TextField label="Subject" variant="outlined" fullWidth /> */}
                   <TextField label="Message" variant="outlined" multiline rows={4} fullWidth required />
                   <Button type="submit" variant="contained" sx={{ backgroundColor: "red", color: "white" }} fullWidth>
                     Send Message
@@ -55,7 +55,7 @@ const Contact = () => {
               </IconButton>
             </motion.div>
             <motion.div whileHover={{ scale: 1.2 }}>
-              <IconButton component={Link} href="mailto:divyas10012004@gmail.com" target="_blank" color="inherit">
+              <IconButton component={Link} href="mailto:sd.divyasselvan@gmail.com" target="_blank" color="inherit">
                 <Email />
               </IconButton>
             </motion.div>

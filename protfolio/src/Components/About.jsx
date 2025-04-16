@@ -11,16 +11,16 @@ const About = () => {
       <Box sx={{ backgroundColor: "#FCFCFF", paddingBottom: "5%" }}>
         <Grid container spacing={2} padding={{ xs: "12% 5%", md: "8% 4%" }} alignItems="center">
           {/* Left Section - About Info */}
-          <Grid item xs={12} md={6} textAlign={{ xs: "center", md: "left" }}>
+          <Grid item xs={12} md={6} textAlign={{ xs: "center", md: "left"}}>
             <motion.div initial={{ x: -50, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1 }}>
-              <Typography variant="h3" fontWeight="bold" color="red" gutterBottom>
+              <Typography variant="h3" fontWeight="bold" color="red" gutterBottom mt="100px">
                 About Me
               </Typography>
               <Typography sx={{ marginTop: 2, fontSize: "16px", color: "#444", fontWeight: "500" }}>
-                Hello, I’m Divya! I’m a recent BCA graduate (2024) and a passionate Frontend Developer.
-                I specialize in building user-friendly, responsive websites using HTML, CSS, JavaScript, and React.
-                I’m eager to apply my skills in creating dynamic, interactive web experiences and always excited to
-                learn new technologies to stay current in frontend development.
+              Hello, I’m Divya! I’m a recent BCA graduate (2024) and a passionate Frontend Developer. I specialize in building user-friendly, responsive websites using HTML, CSS, JavaScript, and React. I’m eager to apply my skills in creating dynamic, interactive web experiences and always excited to learn new technologies to stay current in frontend development.
+              I have worked on several projects during my studies, which have helped me enhance my skills and knowledge in web development. Notably, I built a personal portfolio and a mini ecommerce website using React.js. These projects allowed me to implement my knowledge of frontend technologies while focusing on creating engaging, user-friendly designs. Additionally, I completed a one-month internship. This experience has given me a solid foundation in frontend technologies, and I’m looking forward to applying my expertise to create innovative, engaging, and functional web applications.
+
+
               </Typography>
             </motion.div>
             <Grid container spacing={2} sx={{ marginTop: 3 }}>
